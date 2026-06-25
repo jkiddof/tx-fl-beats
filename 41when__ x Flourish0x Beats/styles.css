@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0e27;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 30px 0 10px;
+    color: #00d9ff;
+    text-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00d9ff, transparent);
+    margin: 30px 0;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #d0d0d0;
+}
+
+del {
+    opacity: 0.6;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    display: block;
+    accent-color: #00d9ff;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #1a1f3a;
+}
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+    accent-color: #00d9ff;
+}
+
+/* Beat container styling */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: 2px solid #00d9ff;
+    border-top-color: rgba(0, 217, 255, 0.3);
+}
+
+footer p {
+    margin-bottom: 15px;
+    color: #b0b0b0;
+}
+
+a {
+    color: #00d9ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
+}
+
+a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 20px rgba(0, 217, 255, 0.8);
+    letter-spacing: 1px;
+}
