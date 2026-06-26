@@ -9,7 +9,12 @@ body {
     color: #e0e0e0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    padding: 20px;
+}
+
+.topbar {
+    background-color: #1a1f3a;
+    padding: 25px 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -63,6 +68,8 @@ audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-volume-slider {
     accent-color: #00d9ff;
 }
+
+    
 
 /* Beat container styling */
 main {
