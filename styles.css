@@ -7,19 +7,19 @@
 body {
     background-image: url("images/background.png");
     color: #e0e0e0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 3em;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     margin: 30px 0 10px;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 #topbar-text {
-    font-family: 'Trajan Color Concept', serif;
+    font-family: "Trajan Color Concept", serif;
 }
 
 h2 {
@@ -53,7 +53,7 @@ del {
     padding: 20px;
     color: #d0d0d0;
     text-align: left;
-    font-family: 'Rubik Medium', sans-serif;
+    font-family: "Rubik Medium", sans-serif;
 }
 
 audio {
@@ -83,7 +83,7 @@ main {
 
 .nav-link {
     color: white;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     text-decoration: none;
     margin: 0 15px;
     transition: all 0.3s ease;
@@ -107,7 +107,7 @@ footer {
 footer p {
     margin-bottom: 15px;
     color: #b0b0b0;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 a {
