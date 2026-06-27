@@ -5,20 +5,21 @@
 }
 
 body {
-    background-color: #0a0e27;
+    background-image: url("images/background.png");
     color: #e0e0e0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
 }
 
 h1 {
     text-align: center;
     font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
     margin: 30px 0 10px;
-    color: #00d9ff;
-    text-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
-    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+#topbar-text {
+    font-family: 'Trajan Color Concept', serif;
 }
 
 h2 {
@@ -46,28 +47,52 @@ del {
     opacity: 0.6;
 }
 
+.data-label {
+    font-size: 1.1em;
+    margin: 15px 0;
+    padding: 20px;
+    color: #d0d0d0;
+    text-align: left;
+    font-family: 'Rubik Medium', sans-serif;
+}
+
 audio {
     width: 100%;
     max-width: 500px;
     margin: 15px auto;
     display: block;
-    accent-color: #00d9ff;
 }
 
 audio::-webkit-media-controls-panel {
     background-color: #1a1f3a;
 }
 
-audio::-webkit-media-controls-mute-button,
-audio::-webkit-media-controls-play-button,
-audio::-webkit-media-controls-volume-slider {
-    accent-color: #00d9ff;
-}
-
 /* Beat container styling */
 main {
-    max-width: 600px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#topbar {
+    font-size: 0.9em;
+    background-color: rgb(41, 41, 41);
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+    align-items: right;
 }
 
 /* Footer styling */
@@ -82,14 +107,15 @@ footer {
 footer p {
     margin-bottom: 15px;
     color: #b0b0b0;
+    font-family: 'Libre Baskerville', serif;
 }
 
 a {
-    color: #00d9ff;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
     text-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
+    text-align: right;
 }
 
 a:hover {
